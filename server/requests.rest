@@ -1,0 +1,16 @@
+GET http://localhost:7500/auth/register
+
+###
+
+Post http://localhost:7500/auth/register
+
+
+###
+
+POST http://localhost:7500/auth/login
+Content-Type: application/json
+
+{
+    "username": "EbotProg",
+    "password": "aaaaaaaa"
+}
