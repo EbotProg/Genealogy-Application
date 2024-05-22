@@ -155,7 +155,7 @@ app.post('/auth/register', (req, res)=>{
     res.end();
 })
 
-app.post('/addMember', (req, res)=> {
+app.post('/addMember', authenticateToken,(req, res)=> {
     try{
 
         console.log("addMember is running")
